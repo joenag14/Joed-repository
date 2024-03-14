@@ -10,3 +10,5 @@ print(curso)
 
 curso = 'Ultimate \n"python"'
 print(curso)
+# Al agregar un back slash y una (n) minuscula antes de poner agregar la palabara entre comillas, esto hara que la palabra entre comillas sera agregada en una siguiente linea de texto.
+# Basicamente, se puede utilizar esta opcion para que el texto despues del back slash + (n) se muestre en la siguiente linea.
