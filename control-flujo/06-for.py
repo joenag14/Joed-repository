@@ -15,10 +15,14 @@ for numero in range(5):
     # para que una vez encuentre el dato buscado, se deje de ejecutar el codigo.
 
 
-buscar = 3
+buscar = 10
 for numero in range(5):
     print(numero)
     if numero == buscar:
         print("encontrado", buscar)
         break
-    else:
+else:
+    print("no encontre el numero buscado")
+
+# En esta opcion estamos buscando un numero que no esta dentro del rango declarado en el for, por este motivo.
+# Agregamos el else y este seria un for else.
