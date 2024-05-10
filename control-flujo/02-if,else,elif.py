@@ -1,26 +1,38 @@
-edad = input("ingrese edad")
-edad = int(edad)
-if edad > 65:
-    print("Puede ver la pelicula con super descuento")
+print("Bienvenidos a la calculadora")
+print("para salir escribe salir")
+print("las operaciones son: suma, multi, div y resta")
+n1 = input("ingrese primer numero:")
+n2 = input("ingrese el segundo numero:")
+op = input("ingrese operacion:")
+n1 = int(n1)
+n2 = int(n2)
 
-    print("Listo")
+suma = n1 + n2
+resta = n1 - n2
+multi = n1 * n2
+div = n1 / n2
 
-elif edad > 54:
-    print("puede ver la pelicula con descuento")
 
-    print("listo")
+mensaje1 = suma
+print("el resultado de la operacion es")
 
-elif edad > 17:
-    print("puede ver la pelicula")
+mensaje2 = resta
+print("el resultado de la operacion es")
 
-    print("listo")
+mensaje3 = multi
+print("el resultado de la operacion es")
 
-else:
-    print("no puede ver la pelicula")
+mensaje4 = div
+print("el resultado de la operacion es")
 
-    print("listo")
-# si se le da un valor a una variable y esta cumple con las condiciones del if, imprimira los mensajes siguientes, de otra manera, no imprimira nada.
-# En este ejemplo se puede ver como se agrega un input y se convierte en un numero para poder ingresar el valor y verificar si cumple con la condicion del if, de otra manera
-# se imprimira el mensaje de que no puede ver la pelicula.
-# Es sumamente importante el orden en el que se se ponen los datos cuando se esta utilizando el "elif", ya que dependiendo de esto, el resultado que se imprimira va a variar.
-# Se pueden agregar varios "elif"
+if op.lower == "suma":
+    print(mensaje1)
+
+elif op.lower == "resta":
+    print(mensaje2)
+
+elif op.lower == "multi":
+    print(mensaje3)
+
+elif op.lower == "div":
+    print(mensaje4)
