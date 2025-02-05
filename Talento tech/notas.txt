@@ -1,0 +1,23 @@
+un software contable
+
+un software que mida el consumo de co2 en las biciletas
+que funcionan con eso 
+
+un bot que haga entrevistas de trabajo 
+
+una página que haga busquedas en simultaneo y te arroje 
+el resultado de cual es el mejor precio y mejor calificado 
+
+  
+deepseek chat
+
+figma
+
+
+interview coach
+
+
+
+Javascript 
+
+Var, es global, funciona dentro de la misma carpeta
